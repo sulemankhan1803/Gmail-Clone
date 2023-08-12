@@ -36,7 +36,6 @@
         <!-- Search Icon -->
         <span class="material-symbols-outlined"> search </span>
         <input type="text" placeholder="Search mail" />
-        
       </div>
 
       <div class="headerRight">
@@ -50,372 +49,280 @@
 
     <!-- Main Body -->
     <div class="main-body">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar-compose">
+          <span class="material-symbols-outlined">edit</span>
+          Compose
+        </button>
 
-        <!-- Sidebar Starts -->
-        <div class="sidebar">
-          <button class="sidebar-compose"><span class="material-symbols-outlined">
-            edit</span>Compose</button>
+        <!-- Inbox -->
+        <div class="sidebarOption sidebarOption-active">
+          <span class="material-symbols-outlined">inbox</span>
+          <h3>Inbox</h3>
+        </div>
 
-          <!-- Inbox -->
-          <div class="sidebarOption sidebarOption-active">
-            <span class="material-symbols-outlined">inbox</span>
-            <h3>Inbox</h3>
-          </div>
+        <!-- Starred -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">star</span>
+          <h3>Starred</h3>
+        </div>
 
-          <!-- Starred -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">star</span>
-            <h3>Starred</h3>
-          </div>
+        <!-- Schedule -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">schedule</span>
+          <h3>Snoozed</h3>
+        </div>
 
-          <!-- Schedule -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">schedule</span>
-            <h3>Snoozed</h3>
-          </div>
+        <!-- Important -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">label_important</span>
+          <h3>Important</h3>
+        </div>
 
-          <!-- Important -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">label_important</span>
-            <h3>Important</h3>
-          </div>
+        <!-- Sent -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">near_me</span>
+          <h3>Sent</h3>
+        </div>
 
-          <!-- Sent -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">near_me</span>
-            <h3>Sent</h3>
-          </div>
+        <!-- Drafts -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">note</span>
+          <h3>Drafts</h3>
+        </div>
 
-          <!-- Drafts -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">note</span>
-            <h3>Drafts</h3>
-          </div>
-          <!-- More -->
-          <div class="sidebarOption">
-            <span class="material-symbols-outlined">
-                expand_more
-                </span>
-            <h3>More</h3>
-          </div>
+        <!-- More -->
+        <div class="sidebarOption">
+          <span class="material-symbols-outlined">expand_more</span>
+          <h3>More</h3>
+        </div>
 
-          <!-- Label -->
-          <div class="sidebar-footer">
-            <div class="label">
-                <h3>Labels</h3>
-                <span class="material-symbols-outlined">add</span>
-            </div>
+        <!-- Label -->
+        <div class="sidebar-footer">
+          <div class="label">
+            <h3>Labels</h3>
+            <span class="material-symbols-outlined">add</span>
           </div>
         </div>
-        <!-- Sidebar Ends -->
+      </div>
+      <!-- Sidebar Ends -->
 
-        <!-- Email list starts -->
-        <div class="emailList">
-            <!-- Settings Starts -->
-            <div class="emailList-settings">
-
-              <div class="emailList-settingsLeft">
-                <input type="checkbox" />
-                 
-                <span class="material-symbols-outlined">
-                    arrow_drop_down
-                    </span>
-                    <span class="material-symbols-outlined">
-                        refresh
-                        </span>
-                        <span class="material-symbols-outlined">
-                            more_vert
-                            </span>
-              </div>
-              <div class="emailList-settingsRight">
-                <span class="material-symbols-outlined">
-                    chevron_left</span>
-                    <span class="material-symbols-outlined">
-                        chevron_right
-                        </span>
-              </div>
-            </div>
-            <!-- Settings Ends -->
-
-             <!-- Section Starts -->
-        <div class="emailList-sections">
-            
-            <div class="section section-selected">
-                <span class="material-symbols-outlined">
-                    inbox
-                    </span>
-              <h4>Primary</h4>
-            </div>
-
-            <div class="section">
-                <span class="material-symbols-outlined">
-                    sell
-                    </span>
-                <h4>Promotions</h4>
-              </div>
-  
-            <div class="section">
-                <span class="material-symbols-outlined">
-                    group
-                    </span>
-              <h4>Social</h4>
-            </div>
-  
+      <!-- Email list starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailList-settings">
+          <div class="emailList-settingsLeft">
+            <input type="checkbox" />
+            <span class="material-symbols-outlined">arrow_drop_down</span>
+            <span class="material-symbols-outlined">refresh</span>
+            <span class="material-symbols-outlined">more_vert</span>
           </div>
-          <!-- Section Ends -->
 
-          <!-- Email List rows starts -->
+          <div class="emailList-settingsRight">
+            <span class="material-symbols-outlined">chevron_left</span>
+            <span class="material-symbols-outlined">chevron_right</span>
+          </div>
+        </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+        <div class="emailList-sections">
+          <!-- Inbox -->
+          <div class="section section-selected">
+            <span class="material-symbols-outlined">inbox</span>
+            <h4>Primary</h4>
+          </div>
+
+          <!-- Promotions -->
+          <div class="section">
+            <span class="material-symbols-outlined">sell</span>
+            <h4>Promotions</h4>
+          </div>
+
+          <!-- Social -->
+          <div class="section">
+            <span class="material-symbols-outlined">group</span>
+            <h4>Social</h4>
+          </div>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
         <div class="emailList__list">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
+            </div>
+            <h3 class="emailRow__title">Flipkart</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Return Reguest
+                <span class="emailRow__description">
+                  - Return request for an item from your order
+                  OD428818925581112100 has been accepted
+                </span>
+              </h4>
+            </div>
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
 
           <!-- Email Row Starts -->
           <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
               <span class="material-symbols-outlined">star</span>
-                <span class="material-symbols-outlined">label_important
-                  </span>
-             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+              <span class="material-symbols-outlined">label_important</span>
+            </div>
+            <h3 class="emailRow__title">Amazon</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                Order Status
+                <span class="emailRow__description">
+                  - Order Placed Successfully
+                </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">11am</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+            <h3 class="emailRow__title">Myntra</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                Order Status
+                <span class="emailRow__description">
+                  - Order Placed Successfully
+                </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">12am</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+            <h3 class="emailRow__title">LinkedIn</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                Your full LinkedIn data archive is ready!
+                <span class="emailRow__description">
+                  - Your full LinkedIn data archive is ready!
+                </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">1pm</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
             <h3 class="emailRow__title">Flipkart</h3>
 
             <div class="emailRow__message">
               <h4>
                 Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                <span class="emailRow__description">
+                  - Return request for an item from your order
+                  OD428818925581112100 has been accepted
+                </span>
               </h4>
             </div>
-
             <p class="emailRow__time">10pm</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+            <h3 class="emailRow__title">Amazon</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                Order Status
+                <span class="emailRow__description">
+                  - Order Placed Successfully
+                </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">11am</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+            <h3 class="emailRow__title">Myntra</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
+                Order Status
+                <span class="emailRow__description">
+                  - Order Placed Successfully
+                </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">12am</p>
           </div>
           <!-- Email Row Ends -->
 
-           <!-- Email Row Starts -->
-           <div class="emailRow">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
             <div class="emailRow__options">
               <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">label_important</span>
             </div>
-            <h3 class="emailRow__title">Flipkart</h3>
+            <h3 class="emailRow__title">LinkedIn</h3>
 
             <div class="emailRow__message">
               <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
-              </h4>
-            </div>
-
-            <p class="emailRow__time">10pm</p>
-          </div>
-          <!-- Email Row Ends -->
-
-           <!-- Email Row Starts -->
-           <div class="emailRow">
-            <div class="emailRow__options">
-              <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
+                Your full LinkedIn data archive is ready!
+                <span class="emailRow__description">
+                  - Your full LinkedIn data archive is ready!
                 </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
-            </div>
-            <h3 class="emailRow__title">Flipkart</h3>
-
-            <div class="emailRow__message">
-              <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
               </h4>
             </div>
-
-            <p class="emailRow__time">10pm</p>
+            <p class="emailRow__time">1pm</p>
           </div>
           <!-- Email Row Ends -->
-           <!-- Email Row Starts -->
-           <div class="emailRow">
-            <div class="emailRow__options">
-              <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
-            </div>
-            <h3 class="emailRow__title">Flipkart</h3>
-
-            <div class="emailRow__message">
-              <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
-              </h4>
-            </div>
-
-            <p class="emailRow__time">10pm</p>
-          </div>
-          <!-- Email Row Ends -->
-
-           <!-- Email Row Starts -->
-           <div class="emailRow">
-            <div class="emailRow__options">
-              <input type="checkbox" name="" id="" />
-              <span class="material-symbols-outlined">
-                star
-                </span>
-                
-                <span class="material-symbols-outlined">
-                    label_important
-                    </span>
-            </div>
-            <h3 class="emailRow__title">Flipkart</h3>
-
-            <div class="emailRow__message">
-              <h4>
-                Return Reguest
-                <span class="emailRow__description"> - Return request for an item from your order OD428818925581112100 has been accepted </span>
-              </h4>
-            </div>
-
-            <p class="emailRow__time">10pm</p>
-          </div>
-          <!-- Email Row Ends -->
-
-
-
+        </div>
         <!-- Email list ends -->
+      </div>
+    </div>
     <!-- Main Body ends -->
-     
   </body>
 </html>

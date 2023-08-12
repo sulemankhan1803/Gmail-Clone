@@ -28,27 +28,27 @@
     cursor: pointer;
 }
 
-.headerMiddle {
-    display: flex;
-    flex: 0.7;
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 50px;
-    margin: 0 10px; /* Add margin for spacing */
-}
-
 .material-symbols-outlined {
     color: black;
 }
 
+.headerMiddle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: #f1f3f4;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+
 .headerMiddle input {
-    border: none;
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    font-size: medium;
-    background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
 }
 
   
@@ -77,15 +77,23 @@
     color: black;
     padding: 15px;
     border-radius: 10px;
-    background-color: #7cc6e6;
+    background-color: rgb(194, 231, 255);
     display: flex;
     align-items: center;
     cursor: pointer;
     outline: none;
     border: none;
+    box-shadow: 0 0 5px 0 #ccc;
     
   }
   
+ 
+  
+
+
+
+
+
   .sidebar-compose span {
     margin-right: 5px;
   }
@@ -202,12 +210,12 @@
   .section-selected {
     background-color: whitesmoke;
     border-width: 3px;
-    color: blue;
-    border-bottom: 3px solid blue;
+    color: rgb(11, 87, 208);
+    border-bottom: 3px solid rgb(11, 87, 208);
   }
   
   .section-selected .material-symbols-outlined {
-    color: blue;
+    color: rgb(11, 87, 208);
   }
   
   .section:hover {
